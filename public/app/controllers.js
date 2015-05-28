@@ -1,7 +1,8 @@
-var controllers = angular.module('myapp.controllers', []);
+var controllers = angular.module('myapp.controllers', ['mgcrea.ngStrap']);
 
 controllers.controller('IndexController', ['$scope', function($scope){
-	$scope.message = "Work it Index Portfolio Pg";
+	$scope.message = "Rainu Ittycheriah | Web Developer";
+	$scope.name = "Dis is my PortFolio";
 }]);
 
 controllers.controller('AboutController', ['$scope', function($scope){
