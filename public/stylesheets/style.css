@@ -3,7 +3,7 @@ div {
 }
 
 body {
-  padding: 5%;
+  padding: 2.5%;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -17,4 +17,16 @@ h1 {
 
 a {
   color: #00B7FF;
+}
+
+.myProfile {
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+.icons {
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
 }
