@@ -1,10 +1,15 @@
 .row
   .col-md-12
     h1 {{message}}
-.row
+.row(ng-repeat='project in projects')
   .col-md-4
+    img(src='{{project.screenshot}}').img-responsive.img-rounded
   .col-md-4
+    p {{project.name}}
+    p {{project.description}}
   .col-md-4
+    p URL: {{project.URL}}
+    p Contributors: {{project.contributors}}
 .row
   .col-md-3
     p this is where the github logo will go
