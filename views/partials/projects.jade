@@ -1,7 +1,7 @@
 .row
   .col-md-12
     h1 {{message}}
-.row(ng-repeat='project in projects')
+.row.projDiv(ng-repeat='project in projects')
   .col-md-4
     a(href='{{project.URL}}')
       img(src='{{project.screenshot}}').img-responsive.img-rounded.projImg

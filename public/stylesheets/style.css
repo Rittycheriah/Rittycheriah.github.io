@@ -50,6 +50,14 @@ a {
   margin-bottom: 2.5%;
 }
 
+.projDiv {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background-color: #B2FFFF;
+	border-radius: 30px;
+	opacity: .75;
+}
+
 .icons {
 	height: 100px;
 	width: 100px;
