@@ -3,12 +3,12 @@
     h1 {{message}}
 .row(ng-repeat='project in projects')
   .col-md-4
-    img(src='{{project.screenshot}}').img-responsive.img-rounded
+    a(href='{{project.URL}}')
+      img(src='{{project.screenshot}}').img-responsive.img-rounded.projImg
   .col-md-4
     p {{project.name}}
     p {{project.description}}
   .col-md-4
-    p URL: {{project.URL}}
     p Contributors: {{project.contributors}}
 .row
   .col-md-3
@@ -22,4 +22,4 @@
       img(src='/images/twitter.png').img-responsive.icons
   .col-md-3
     a(href='mailto:rittycheriah@gmail.com')
-      img(src='/images/email.jpg').img-responsive.icons
+      img(src='/images/email2.png').img-responsive.icons
