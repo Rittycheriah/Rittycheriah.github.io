@@ -5,6 +5,10 @@ controllers.controller('IndexController', ['$scope', function($scope){
 	$scope.name = "Dis is my PortFolio";
 }]);
 
-controllers.controller('AboutController', ['$scope', function($scope){
-	$scope.message = "Work it About Page";
+controllers.controller('ProjectsController', ['$scope', function($scope){
+	$scope.message = "Rainu Ittycheriah | Web Developer";
+}]);
+
+controllers.controller('ResumeController', ['$scope', function($scope){
+	$scope.message = "Rainu's Resume";
 }]);

@@ -4,4 +4,4 @@ exports.index = function(req, res){
 
 exports.partials = function (req, res){
 	res.render('partials/' + req.params.name);
-}
+};

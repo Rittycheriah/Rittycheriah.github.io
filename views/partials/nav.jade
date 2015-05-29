@@ -1,12 +1,12 @@
-nav.navbar.navbar-default
-  .container
-    .navbar-header
-      a.navbar-brand(href='/') Portfolio
+.btn-group.btn-group-justified(role='group', aria-label='...')
+  .btn-group(role='group')
+    li.button.btn.btn-default(type='button') 
+      a(href='/projects') Projects 
+  .btn-group(role='group')
+    li.button.btn.btn-default(type='button') 
+      a(href='/') About Me
+  .btn-group(role='group')
+    li.button.btn.btn-default(type='button') 
+      a(href='/resume') Resume
 
-    ul.nav.navbar-nav.navbar-right
-      li
-        a(href='/') Home
-      li
-        a(href='/') About
-      li
-        a(href='/') My Projects
+// Make an ng-click to the appropriate route for each 

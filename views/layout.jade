@@ -1,7 +1,9 @@
 doctype html
 html(ng-app='everyThing')
   head
-    title= title
+    base(href='/')
+    title My Portfolio
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     include partials/nav
@@ -14,3 +16,5 @@ html(ng-app='everyThing')
   script(src='javascripts/bootstrap.min.js')
   script(src='app/app.js')
   script(src='app/controllers.js')
+  script(src='//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.min.js')
+  script(src='//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.tpl.min.js')
