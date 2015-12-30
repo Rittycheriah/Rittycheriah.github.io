@@ -11,18 +11,26 @@ controllers.controller('ProjectsController', ['$scope', function($scope){
     // $scope.myQuoteProjFlower = new CodeFlower(".flowerDiv", 300, 200);
     // myflower.update(quoteData);
     $scope.projects = [
-      {name : 'Dually Quoted',
-     URL : 'heroku', 
-     screenshot : '/images',
-     description : 'An MongoDB, Express, and EJS app designed to keep you inspired. This app stores and creates quotations. Inversely, if you want a quote based on your mood, you can select a mood and the app will randomly populate one for you',
-     myAppFlower : 'theone'
-    }, 
-    {name : 'My 1st Capstone',
-     URL : '/awesomesauce', 
-     screenshot : '/images/',
-     description : 'what you said',
-     myAppFlower : 'where that other flower will go'
+    {
+        name: 'Nirvana.io',
+        URL: 'https://github.com/Rittycheriah/RandomActs', 
+        screenshot: '../images/1450877816.svg',
+        description: 'This project is currently in progress. I am currently working on my final capstone which is a gamification of random acts of kindness. Application is being built using Web API 2 .NET Framework, Entity, AngularJS, jQuery, and Bootstrap. '
     },
+    {
+        name : 'realTr@cker',
+        URL : 'https://github.com/Rittycheriah/capstone1', 
+        screenshot : '../images/realtracker.jpg',
+        description : 'Front end application utilizing MEAN stack technologies and Bootstrap to manage feedback from property showings. Application tracks calls, showings, and any feedback from each prospect.',
+        myAppFlower : 'theotherone'
+    },
+    {
+        name : 'Dually Quoted',
+        URL : 'http://calm-oasis-7445.herokuapp.com/', 
+        screenshot : '/images/DuallyQuoted.jpg',
+        description : 'Front end application utilizing Firebase, Express, and Node.js helping to keep users inspired. Application features include storing quotes from the user and populating a random quotation for the user based off the desired mood selected.',
+        myAppFlower: 'anotherone'       
+    }
 	];
 }]);
 

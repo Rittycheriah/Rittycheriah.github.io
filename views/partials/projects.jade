@@ -6,8 +6,9 @@
     a(href='{{project.URL}}')
       img(src='{{project.screenshot}}').img-responsive.img-rounded.projImg
   .col-md-4
-    p {{project.name}}
+    h3 {{project.name}}
     p {{project.description}}
+    a(href='{{project.URL}}') Project Link
   .col-md-4.flowerDiv {{myAppFlower}}
 .row
   .col-md-3
