@@ -21,6 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('index.html', routes.index)
 app.get('/', routes.index);
 app.get('/partials/:name', routes.partials);
 app.get('*', routes.index);
