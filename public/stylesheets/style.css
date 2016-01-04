@@ -33,8 +33,9 @@ h1 {
       1px 1px 0 #000;
 }
 
-a {
+.customNav {
   color: #00B7FF;
+  font-size: 150%;
 }
 
 .myProfile {
