@@ -30,6 +30,12 @@ controllers.controller('ProjectsController', ['$scope', function($scope){
         screenshot : '/images/DuallyQuoted.jpg',
         description : 'Front end application utilizing Firebase, Express, and Node.js helping to keep users inspired. Application features include storing quotes from the user and populating a random quotation for the user based off the desired mood selected.',
         myAppFlower: 'anotherone'       
+    }, 
+    {
+        name : 'Paramour', 
+        URL: 'https://github.com/Rittycheriah/hunkomatic',
+        screenshot: '/images/paramour.jpg', 
+        description: 'Front end game utilizing Node.js, jQuery, and JavaScript to making an Hunk AI for the Paramour game. Contributors included Sonda Sengupta, Matthew Ostrander, Jacob Paine, and Beck Cronin-Dixon at the 2016 NashGameDev Global Game Jam'
     }
 	];
 }]);
