@@ -1,0 +1,29 @@
+.row
+  .col-md-12
+    h1 {{message}}
+.row.postDiv
+  .col-md-2
+  .col-md-8.post
+    h3 EIL #1: Spread Operators
+    h6 October 15th, 2016
+    p It's been a really long time since I found myself working in the front end since starting my job at Groups360. However, this week, I had the opportunity to start playing with some Angular2. That being said, I went home feeling like I really needed to sharpen my JavaScript chops.
+
+    p As always, my first thought was to go play #[a(href='https://www.codewars.com') CodeWars]. The task was simple. Take an array with duplicates, identify the duplicates, delete them, and sort the array. Sounds easy right? Well, it can be with spread! After messing around with the JS native methods concat and apply, I found out that the Set object paired with spread is pretty much the best thing next to sliced bread.
+      br
+      img(src='/snippets/codesnippet1.png')
+      br
+    p My solution is a function that accepts an array as its only argument. Then, I create an empty Set object. Next, I loop over the array, check if the set already includes the current item, and if not, add it to the set object. Finally, the set is then returned to the user as an array using the ... spread operator to iterate over the set and return an array.
+  .col-md-2
+.row
+  .col-md-3
+    a(href='http://www.github.com/Rittycheriah')
+      img(src='/images/github.png').img-responsive.icons
+  .col-md-3
+    a(href='https://www.linkedin.com/in/rittycheriah')
+      img(src='/images/linkedin1.png').img-responsive.icons
+  .col-md-3
+    a(href='http://www.twitter.com/RainuItty')
+      img(src='/images/twitter.png').img-responsive.icons
+  .col-md-3
+    a(href='mailto:rittycheriah@gmail.com')
+      img(src='/images/email2.png').img-responsive.icons

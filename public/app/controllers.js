@@ -13,28 +13,28 @@ controllers.controller('ProjectsController', ['$scope', function($scope){
     $scope.projects = [
     {
         name: 'Nirvana.io',
-        URL: 'https://github.com/Rittycheriah/RandomActs', 
+        URL: 'https://github.com/Rittycheriah/RandomActs',
         screenshot: '../images/1450877816.svg',
         description: 'This project is currently in progress. I am currently working on my final capstone which is a gamification of random acts of kindness. Application is being built using Web API 2 .NET Framework, Entity, AngularJS, jQuery, and Bootstrap. '
     },
     {
         name : 'realTr@cker',
-        URL : 'https://github.com/Rittycheriah/capstone1', 
+        URL : 'https://github.com/Rittycheriah/capstone1',
         screenshot : '../images/realtracker.jpg',
         description : 'Front end application utilizing MEAN stack technologies and Bootstrap to manage feedback from property showings. Application tracks calls, showings, and any feedback from each prospect.',
         myAppFlower : 'theotherone'
     },
     {
         name : 'Dually Quoted',
-        URL : 'http://calm-oasis-7445.herokuapp.com/', 
+        URL : 'http://calm-oasis-7445.herokuapp.com/',
         screenshot : '/images/DuallyQuoted.jpg',
         description : 'Front end application utilizing Firebase, Express, and Node.js helping to keep users inspired. Application features include storing quotes from the user and populating a random quotation for the user based off the desired mood selected.',
-        myAppFlower: 'anotherone'       
-    }, 
+        myAppFlower: 'anotherone'
+    },
     {
-        name : 'Paramour', 
+        name : 'Paramour',
         URL: 'https://github.com/Rittycheriah/hunkomatic',
-        screenshot: '/images/paramour.jpg', 
+        screenshot: '/images/paramour.jpg',
         description: 'Front end game utilizing Node.js, jQuery, and JavaScript to making an Hunk AI for the Paramour game. Contributors included Sonda Sengupta, Matthew Ostrander, Jacob Paine, and Beck Cronin-Dixon at the 2016 NashGameDev Global Game Jam'
     }
 	];
@@ -43,3 +43,7 @@ controllers.controller('ProjectsController', ['$scope', function($scope){
 controllers.controller('ResumeController', ['$scope', function($scope){
 	$scope.message = "Rainu Ittycheriah | Web Developer";
 }]);
+
+controllers.controller('BlogController', ['$scope', function($scope) {
+  $scope.message = "EIL[Everyday I Learn]: The Tales of a Jr. Dev"
+}])
